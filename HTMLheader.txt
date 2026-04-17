@@ -273,7 +273,7 @@
       min-width: 5.25rem;
       margin: 0 8px 8px 0;
       padding: 10px 12px;
-      border-radius: 999px;
+      border-radius: 5px;
       background: white;
       color: var(--brand-deep);
       border: 1px solid rgba(17, 94, 89, 0.16);
@@ -300,7 +300,7 @@
       margin-left: 12px;
       padding: 7px 12px;
       border: 0;
-      border-radius: 999px;
+      border-radius: 5px;
       background: rgba(17, 94, 89, 0.1);
       color: var(--brand-deep);
       font: inherit;
@@ -331,7 +331,7 @@
       align-items: center;
       margin-left: 10px;
       padding: 3px 9px;
-      border-radius: 999px;
+      border-radius: 5px;
       background: rgba(29, 42, 49, 0.07);
       color: var(--muted);
       font-size: 0.72rem;
