@@ -1,7 +1,7 @@
 {t: Southern Nights}
 {st: Glen Campbell}
 
-(riff, riff, riff, riff)
+(riff1, riff1, riff1, riff2)
 [D]Southern Nights, [B7]have you ever felt the [E7]southern night?
 [G]Free as a breeze, not to mention the trees, whistling
 [F#m]tunes that you know and love [A7]so.
@@ -9,7 +9,7 @@
 I apol[G]ogize, to any [F#m]one who can truly say
 that he has [A7]found a better way.
 
-(riff, riff, riff, riff)
+(riff1, riff1, riff1, riff2)
 [D]Southern Skies, [B7]have you ever noticed [E7]southern skies?
 [G]It's precious beauty lies just beyond the eye.
 It goes [F#m]running through your soul like the [A7]stories told of old.
@@ -17,7 +17,7 @@ It goes [F#m]running through your soul like the [A7]stories told of old.
 Every [G]flower touched his cold hand.
 As he [F#m]slowly walked by, weeping [A7]willows would cry for [D]joy.
 
-(riff, riff, riff, riff)
+(riff1, riff1, riff1, riff2)
 [D]Feels so good, [B7]feels so good it's frightening.
 [E7]Wish I could, stop this world from fighting.
 [G]La da da da da da la da da da  da da
@@ -25,9 +25,25 @@ As he [F#m]slowly walked by, weeping [A7]willows would cry for [D]joy.
 [D]Mysteries, [B7]like this and many others [E7]in the trees.
 [G]Blow in the night, in the [A7]southern [D]skies.
 
-(riff, riff)
+(riff1, riff1)
 [D]Southern nights, [B7]they feel so good it's frightening
 [E7]wish I could stop this world from fighting.
 [G]la da da da da da la da da da da da
 [F#m]da da da da da la da da da da  [A7]da da da da
 [D]
+
+{sot}
+riff 1
+-----------------
+---------2-------
+-----2--4-4-2----
+-2-4---------- 4-
+{eot}
+
+{sot}
+riff 2
+-------------------------------
+--------2----------------------
+-----2-4-4-2-4-5-4-2---2-------
+-2-4-----------------4---4-2-4-
+{eot}
