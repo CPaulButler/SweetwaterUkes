@@ -383,7 +383,6 @@
           <div class="hero-grid">
             <div>
               <div class="eyebrow">Sweetwater Ukes Songbook</div>
-              <h1>Music charts you can actually use.</h1>
               <p>Search the collection, open chord charts in ChordPro format, grab PDFs for printing, and follow practice links without digging through the repository.</p>
             </div>
             <aside class="hero-note">
