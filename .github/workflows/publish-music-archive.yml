@@ -40,8 +40,10 @@ jobs:
           set -euo pipefail
           mkdir -p site
           cp -R music site/music
+          cp favicon.svg site/favicon.svg
           genlist music site/index.html --no-intro
           touch site/.nojekyll
+
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
