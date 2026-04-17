@@ -1,0 +1,115 @@
+name: Update ChordPro PDFs
+
+on:
+  push:
+    paths:
+      - '**/*.chopro'
+      - '**/*.cho'
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdfs:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Select charts that need PDF generation
+        id: targets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]]; then
+            mapfile -t changed_files < <(git ls-files)
+          else
+            mapfile -t changed_files < <(git diff --name-only --diff-filter=AMRT "${{ github.event.before }}" "${{ github.sha }}")
+          fi
+
+          declare -A pushed_files=()
+          for path in "${changed_files[@]}"; do
+            pushed_files["$path"]=1
+          done
+
+          : > pdf_targets.txt
+          for path in "${changed_files[@]}"; do
+            case "$path" in
+              *.chopro|*.cho)
+                [[ -f "$path" ]] || continue
+                pdf_path="${path%.*}.pdf"
+                if [[ -n "${pushed_files[$pdf_path]:-}" ]]; then
+                  echo "Skipping $path because $pdf_path was already included in this push."
+                  continue
+                fi
+                printf '%s\n' "$path" >> pdf_targets.txt
+                ;;
+            esac
+          done
+
+          if [[ -f pdf_targets.txt ]]; then
+            sort -u pdf_targets.txt -o pdf_targets.txt
+          fi
+
+          if [[ -s pdf_targets.txt ]]; then
+            echo "needs_generation=true" >> "$GITHUB_OUTPUT"
+            echo "Charts queued for PDF generation:"
+            cat pdf_targets.txt
+          else
+            echo "needs_generation=false" >> "$GITHUB_OUTPUT"
+            echo "No chart requires PDF generation."
+          fi
+
+      - name: Set up Python
+        if: steps.targets.outputs.needs_generation == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install chordpro and genpdf-butler
+        if: steps.targets.outputs.needs_generation == 'true'
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y chordpro
+          python -m pip install --user pipx
+          python -m pipx install genpdf-butler
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Generate PDFs
+        if: steps.targets.outputs.needs_generation == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r chart_path; do
+            [[ -n "$chart_path" ]] || continue
+            genpdf "$chart_path"
+          done < pdf_targets.txt
+
+      - name: Commit generated PDFs
+        if: steps.targets.outputs.needs_generation == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r chart_path; do
+            [[ -n "$chart_path" ]] || continue
+            pdf_path="${chart_path%.*}.pdf"
+            if [[ -f "$pdf_path" ]]; then
+              git add "$pdf_path"
+            fi
+          done < pdf_targets.txt
+
+          if git diff --cached --quiet; then
+            echo "Generated PDFs match the repository state."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update generated music PDFs"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

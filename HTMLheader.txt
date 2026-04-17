@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sweetwater Ukes Music Archive</title>
+  <meta name="description" content="Browse and download Sweetwater Ukes music charts, PDFs, and practice links.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f4efe7;
+      --bg-accent: #e4d5bf;
+      --panel: rgba(255, 251, 245, 0.92);
+      --panel-strong: #fffaf3;
+      --ink: #1d2a31;
+      --muted: #5d6d74;
+      --line: rgba(29, 42, 49, 0.12);
+      --brand: #0f766e;
+      --brand-deep: #115e59;
+      --brand-soft: rgba(15, 118, 110, 0.12);
+      --accent: #c26d2d;
+      --accent-soft: rgba(194, 109, 45, 0.14);
+      --shadow: 0 24px 60px rgba(32, 41, 48, 0.12);
+      --radius-xl: 28px;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Manrope', 'Segoe UI', sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(194, 109, 45, 0.18), transparent 32%),
+        radial-gradient(circle at top right, rgba(15, 118, 110, 0.18), transparent 34%),
+        linear-gradient(180deg, #f8f2e9 0%, var(--bg) 48%, #efe4d3 100%);
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .page-shell {
+      padding: 32px 18px 56px;
+    }
+
+    .site-inner {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+    }
+
+    .archive-card {
+      background: var(--panel);
+      border: 1px solid rgba(255, 255, 255, 0.55);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      backdrop-filter: blur(12px);
+    }
+
+    .hero {
+      position: relative;
+      padding: 28px 28px 10px;
+      background:
+        linear-gradient(140deg, rgba(255, 255, 255, 0.82), rgba(255, 250, 243, 0.65)),
+        linear-gradient(90deg, var(--bg-accent), transparent 70%);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -48px;
+      top: -38px;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(15, 118, 110, 0.18), transparent 68%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.82);
+      color: var(--brand-deep);
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: 1px solid rgba(15, 118, 110, 0.12);
+    }
+
+    h1 {
+      margin: 18px 0 12px;
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: clamp(2.3rem, 4vw, 4.1rem);
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+      max-width: 10ch;
+    }
+
+    .hero p {
+      max-width: 60ch;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.02rem;
+      line-height: 1.7;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr;
+      gap: 22px;
+      align-items: end;
+    }
+
+    .hero-note {
+      position: relative;
+      z-index: 1;
+      padding: 18px 18px 16px;
+      border-radius: var(--radius-lg);
+      background: linear-gradient(180deg, rgba(15, 118, 110, 0.14), rgba(255, 255, 255, 0.72));
+      border: 1px solid rgba(15, 118, 110, 0.14);
+    }
+
+    .hero-note strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--brand-deep);
+    }
+
+    .hero-note span {
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 0.98rem;
+    }
+
+    .search-controls {
+      margin: 0 28px 22px;
+      padding: 22px;
+      background: var(--panel-strong);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      display: grid;
+      gap: 14px;
+    }
+
+    .search-controls h2 {
+      margin: 0;
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+
+    #searchInput {
+      width: 100%;
+      padding: 15px 17px;
+      border-radius: 14px;
+      border: 1px solid rgba(17, 94, 89, 0.18);
+      background: white;
+      color: var(--ink);
+      font: inherit;
+      font-size: 1rem;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    #searchInput:focus {
+      outline: none;
+      border-color: var(--brand);
+      box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.12);
+      transform: translateY(-1px);
+    }
+
+    .filter-checkbox {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 0.98rem;
+      line-height: 1.5;
+    }
+
+    .filter-checkbox input {
+      width: 18px;
+      height: 18px;
+      margin: 0;
+      accent-color: var(--accent);
+      flex: 0 0 auto;
+    }
+
+    .search-stats {
+      color: var(--brand-deep);
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    #dataTable {
+      width: calc(100% - 56px);
+      margin: 0 28px 28px;
+      border-collapse: collapse;
+      background: rgba(255, 255, 255, 0.84);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+
+    #dataTable thead {
+      background: linear-gradient(90deg, var(--brand-deep), var(--brand));
+      color: white;
+    }
+
+    #dataTable th,
+    #dataTable td {
+      padding: 16px 18px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    #dataTable th {
+      font-size: 0.88rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+    }
+
+    #dataTable tbody tr {
+      border-top: 1px solid var(--line);
+      transition: background-color 0.18s ease, transform 0.18s ease;
+    }
+
+    #dataTable tbody tr:hover {
+      background: rgba(15, 118, 110, 0.045);
+    }
+
+    #dataTable tbody tr.easy-song {
+      background: linear-gradient(90deg, var(--accent-soft), transparent 42%);
+    }
+
+    #dataTable.with-line-numbers td:first-child {
+      width: 64px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    #dataTable td:first-child,
+    #dataTable td:nth-child(2) {
+      font-weight: 700;
+    }
+
+    #dataTable a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 5.25rem;
+      margin: 0 8px 8px 0;
+      padding: 10px 12px;
+      border-radius: 999px;
+      background: white;
+      color: var(--brand-deep);
+      border: 1px solid rgba(17, 94, 89, 0.16);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 700;
+      transition: transform 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+    }
+
+    #dataTable a:hover {
+      transform: translateY(-1px);
+      background: var(--brand-soft);
+      border-color: rgba(17, 94, 89, 0.3);
+    }
+
+    #dataTable a[href$='.pdf'],
+    #dataTable a[href*='.pdf?'] {
+      background: rgba(194, 109, 45, 0.1);
+      color: #8a4518;
+      border-color: rgba(194, 109, 45, 0.2);
+    }
+
+    .show-all-versions-btn {
+      margin-left: 12px;
+      padding: 7px 12px;
+      border: 0;
+      border-radius: 999px;
+      background: rgba(17, 94, 89, 0.1);
+      color: var(--brand-deep);
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .show-all-versions-btn:hover {
+      background: rgba(17, 94, 89, 0.16);
+    }
+
+    .additional-version {
+      display: none;
+    }
+
+    .hidden-version td:first-child,
+    .hidden-version td:nth-child(2) {
+      position: relative;
+    }
+
+    .hidden-version td:first-child::after,
+    .hidden-version td:nth-child(2)::after {
+      content: "More";
+      display: inline-flex;
+      align-items: center;
+      margin-left: 10px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: rgba(29, 42, 49, 0.07);
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 860px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      #dataTable {
+        width: calc(100% - 24px);
+        margin: 0 12px 12px;
+        display: block;
+        overflow-x: auto;
+      }
+
+      .search-controls {
+        margin: 0 12px 12px;
+      }
+
+      .hero {
+        padding: 22px 18px 8px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .page-shell {
+        padding: 14px 8px 22px;
+      }
+
+      .archive-card {
+        border-radius: 22px;
+      }
+
+      h1 {
+        max-width: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <div class="site-inner">
+      <section class="archive-card">
+        <div class="hero">
+          <div class="hero-grid">
+            <div>
+              <div class="eyebrow">Sweetwater Ukes Songbook</div>
+              <h1>Music charts you can actually use.</h1>
+              <p>Search the collection, open chord charts in ChordPro format, grab PDFs for printing, and follow practice links without digging through the repository.</p>
+            </div>
+            <aside class="hero-note">
+              <strong>What is published here</strong>
+              <span>The archive page is generated from the repository on GitHub Pages. Source charts stay in version control, and PDFs can be regenerated automatically when a chart changes.</span>
+            </aside>
+          </div>
+        </div>
