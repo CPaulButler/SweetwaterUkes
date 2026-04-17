@@ -383,6 +383,7 @@
         <div class="hero">
           <div class="hero-grid">
             <div>
+              <h1>Sweetwater Ukes</h1>
               <div class="eyebrow">Sweetwater Ukes Songbook</div>
               <p>Search the collection, open chord charts in ChordPro format, grab PDFs for printing, and follow practice links without digging through the repository.</p>
             </div>
