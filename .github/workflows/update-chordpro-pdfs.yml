@@ -75,8 +75,11 @@ jobs:
         if: steps.targets.outputs.needs_generation == 'true'
         run: |
           set -euo pipefail
+          echo "📦 Installing ChordPro and dependencies..."
           sudo apt-get update
-          sudo apt-get install -y chordpro
+          sudo apt-get install -y cpanminus build-essential libpod-parser-perl libharfbuzz-dev libcairo2-dev
+          sudo cpanm --notest HarfBuzz::Shaper
+          sudo cpanm --notest App::Music::ChordPro
           python -m pip install --user pipx
           python -m pipx install genpdf-butler
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
