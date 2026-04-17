@@ -2,9 +2,6 @@ name: Update ChordPro PDFs
 
 on:
   push:
-    paths:
-      - '**/*.chopro'
-      - '**/*.cho'
 
 permissions:
   contents: write
