@@ -385,11 +385,6 @@
             <div>
               <h1>Sweetwater Ukes</h1>
               <div class="eyebrow">Sweetwater Ukes Songbook</div>
-              <p>Search the collection, open chord charts in ChordPro format, grab PDFs for printing, and follow practice links without digging through the repository.</p>
             </div>
-            <aside class="hero-note">
-              <strong>What is published here</strong>
-              <span>The archive page is generated from the repository on GitHub Pages. Source charts stay in version control, and PDFs can be regenerated automatically when a chart changes.</span>
-            </aside>
           </div>
         </div>
