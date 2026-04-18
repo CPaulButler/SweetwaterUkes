@@ -153,6 +153,17 @@
       font-size: 0.98rem;
     }
 
+    .logo-wrap {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
+    .logo-image {
+      width: min(180px, 45vw);
+      height: auto;
+    }
+
     .search-controls {
       margin: 0 28px 22px;
       padding: 22px;
@@ -385,6 +396,9 @@
             <div>
               <h1>Sweetwater Ukes</h1>
               <div class="eyebrow">Sweetwater Ukes Songbook</div>
+            </div>
+            <div class="logo-wrap">
+              <img class="logo-image" src="assets/LogoTransparent.webp" alt="Sweetwater Ukes logo">
             </div>
           </div>
         </div>
