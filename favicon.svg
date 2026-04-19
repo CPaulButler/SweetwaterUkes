@@ -2,9 +2,9 @@
   <!-- Transparent background (no rect) -->
   <g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
     <!-- Stem -->
-    <path d="M38 12v30"/>
+    <path d="M36 12v34"/>
     <!-- Flag -->
-    <path d="M38 12c10 2 16 8 16 16-6-4-12-5-16-4"/>
+    <path d="M36 12c10 2 16 8 16 16-6-4-12-5-16-4"/>
     <!-- Note head -->
     <ellipse cx="26" cy="46" rx="10" ry="7"/>
   </g>
