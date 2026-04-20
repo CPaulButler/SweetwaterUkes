@@ -64,9 +64,15 @@
     .site-inner {
       width: min(1120px, 100%);
       margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 270px;
+      gap: 24px;
+      align-items: start;
     }
 
     .archive-card {
+      grid-column: 1;
+      grid-row: 1;
       background: var(--panel);
       border: 1px solid rgba(255, 255, 255, 0.55);
       border-radius: var(--radius-xl);
@@ -357,6 +363,22 @@
     }
 
     @media (max-width: 860px) {
+      .site-inner {
+        grid-template-columns: 1fr;
+      }
+
+      /* Archive card first on mobile, events below */
+      .archive-card {
+        grid-column: 1;
+        grid-row: 1;
+      }
+
+      .events-panel {
+        grid-column: 1;
+        grid-row: 2;
+        position: static;
+      }
+
       .hero-grid {
         grid-template-columns: 1fr;
       }
@@ -389,12 +411,127 @@
       h1 {
         max-width: none;
       }
+
+      #dataTable th,
+      #dataTable td {
+        padding: 12px 12px;
+      }
+
+      #dataTable a {
+        min-width: 4rem;
+        font-size: 0.82rem;
+        padding: 8px 10px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .page-shell {
+        padding: 8px 4px 16px;
+      }
+
+      .archive-card {
+        border-radius: 16px;
+      }
+
+      .hero {
+        padding: 16px 14px 6px;
+      }
+
+      .search-controls {
+        margin: 0 8px 8px;
+        padding: 14px;
+      }
+
+      #dataTable {
+        width: calc(100% - 16px);
+        margin: 0 8px 8px;
+      }
+
+      #dataTable th,
+      #dataTable td {
+        padding: 10px 10px;
+      }
+
+      .logo-image {
+        width: min(120px, 30vw);
+      }
+
+      .events-panel {
+        border-radius: 16px;
+      }
+    }
+
+    .events-panel {
+      background: var(--panel);
+      border: 1px solid rgba(255, 255, 255, 0.55);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+      overflow: hidden;
+    }
+
+    @media (min-width: 861px) {
+      .events-panel {
+        grid-column: 2;
+        grid-row: 1;
+        position: sticky;
+        top: 32px;
+      }
+    }
+
+    .events-panel-header {
+      padding: 20px 22px 14px;
+      background:
+        linear-gradient(140deg, rgba(255, 255, 255, 0.82), rgba(255, 250, 243, 0.65)),
+        linear-gradient(90deg, var(--bg-accent), transparent 70%);
+    }
+
+    .events-panel-header h2 {
+      margin: 10px 0 0;
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .events-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .event-item {
+      padding: 14px 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .event-name {
+      font-weight: 700;
+      font-size: 0.97rem;
+      margin-bottom: 4px;
+    }
+
+    .event-details {
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.55;
     }
   </style>
 </head>
 <body>
   <div class="page-shell">
     <div class="site-inner">
+      <aside class="events-panel">
+        <div class="events-panel-header">
+          <div class="eyebrow">&#128197; Upcoming</div>
+          <h2>Events</h2>
+        </div>
+        <ul class="events-list">
+          <li class="event-item">
+            <div class="event-name">Practice at Cindy&#x27;s</div>
+            <div class="event-details">Thursday, April 23<br>2:00 PM</div>
+          </li>
+        </ul>
+      </aside>
       <section class="archive-card">
         <div class="hero">
           <div class="hero-grid">
