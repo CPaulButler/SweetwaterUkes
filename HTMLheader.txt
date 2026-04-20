@@ -403,7 +403,7 @@
               <div class="eyebrow">Sweetwater Ukes Songbook</div>
             </div>
             <div class="logo-wrap">
-              <img class="logo-image" src="assets/LogoTransparent.webp?v=20260420" alt="Sweetwater Ukes logo">
+              <img class="logo-image" src="assets/Logo2.webp?v=20260420" alt="Sweetwater Ukes logo">
             </div>
           </div>
         </div>
