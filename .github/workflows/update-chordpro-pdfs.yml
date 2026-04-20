@@ -88,7 +88,7 @@ jobs:
           set -euo pipefail
           while IFS= read -r chart_path; do
             [[ -n "$chart_path" ]] || continue
-            genpdf "$chart_path"
+            genpdf "$chart_path" --pagesize a4 --showchords top
           done < pdf_targets.txt
 
       - name: Commit generated PDFs
