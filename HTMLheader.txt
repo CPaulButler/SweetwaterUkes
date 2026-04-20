@@ -3,9 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta name="robots" content="noindex, nofollow, noarchive, noimageindex, nocache">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, noimageindex, nocache">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, noimageindex, nocache">
   <title>Sweetwater Ukes Music Archive</title>
   <meta name="description" content="Browse and download Sweetwater Ukes music charts, PDFs, and practice links.">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.svg?v=20260420" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -398,7 +403,7 @@
               <div class="eyebrow">Sweetwater Ukes Songbook</div>
             </div>
             <div class="logo-wrap">
-              <img class="logo-image" src="assets/LogoTransparent.webp" alt="Sweetwater Ukes logo">
+              <img class="logo-image" src="assets/LogoTransparent.webp?v=20260420" alt="Sweetwater Ukes logo">
             </div>
           </div>
         </div>

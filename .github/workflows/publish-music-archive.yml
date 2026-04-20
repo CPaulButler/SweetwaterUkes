@@ -54,6 +54,7 @@ jobs:
           cp -R music site/music
           cp -R assets site/assets
           cp favicon.svg site/favicon.svg
+          cp robots.txt site/robots.txt
           genlist music site/index.html --no-intro
           touch site/.nojekyll
 
