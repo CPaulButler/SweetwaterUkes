@@ -2,21 +2,19 @@
 {st:Irving Berlin, 1926}
 {define: Am/G# frets 1 0 0 0}
 {define: Am/G frets 2 0 3 0}
-{define: Am/F# frets 2 0 2 0}
+{define: D7 frets 2 0 2 0}
 
 {comment Strum: d- d- du du}
 
-{comment INTRO - Instrumental}
-{textcolor blue}
-[Am] Blue ski-[Am/G#]-es smiling at [Am/G] me-[Am/F#]-e,
-Nothing but [C] blue ski-[G]-es do I [C] see. [E7]
-{textcolor}
+{comment INTRO - Instrumental of CHORUS 1 first two line}
+[Am] [Am/G#][Am/G] [D7]
+[C] [G] [C] [E7]
 
 {comment CHORUS 1}
-[Am] Blue ski-[Am/G#]-es smiling at [Am/G] me-[Am/F#]-e,
+[Am] Blue ski-[Am/G#]-es smiling at [Am/G] me-[D7]-e,
 Nothing but [C] blue ski-[G]-es do I [C] see. [E7]
-[Am] Blue bir-[Am/G#]-ds singing a [Am/G] so-[Am/F#]-ng,
-Nothing but [C] blue bir-[G]-ds, all day [C] long.
+[Am] Blue bir-[Am/G#]-ds singing a [Am/G] so-[D7]-ng,
+Nothing but [C] blue skies [G], from now [C] on. [C]
 
 {comment VERSE 1}
 I [C] Never saw the sun [Fm] shining so [C] bright;
@@ -25,22 +23,20 @@ I [C] Never saw the sun [Fm] shining so [C] bright;
 [Fm] When you’re in [C] love, [G] my how they [C] fly! [G] Oh
 
 {comment CHORUS 2}
-[Am] Blue da-[Am/G#]-ys, all of them [Am/G] go-[Am/F#]-ne,
+[Am] Blue da-[Am/G#]-ys, all of them [Am/G] go-[D7]-ne,
 Nothing but [C] blue ski-[G]-es, from now [C] on. [C]
 
-{comment INSTRUMENTAL}
-{textcolor blue}
-[Am] Blue ski-[Am/G#]-es smiling at [Am/G] me-[Am/F#]-e,
-Nothing but [C] blue ski-[G]-es do I [C] see. [E7]
-[Am] Blue bir-[Am/G#]-ds singing a [Am/G] so-[Am/F#]-ng,
-Nothing but [C] blue bir-[G]-ds, all day [C] long.
-{textcolor}
+{comment INSTRUMENTAL - Chorus 1}
+[Am] [Am/G#][Am/G] [D7]
+[C] [G] [C] [E7]
+[Am] [Am/G#][Am/G] [D7]
+[C] [G] [C] [C]
 
 {comment CHORUS 3}
-[Am] Blue ski-[Am/G#]-es smiling at [Am/G] me-[Am/F#]-e,
+[Am] Blue ski-[Am/G#]-es smiling at [Am/G] me-[D7]-e,
 Nothing but [C] blue ski-[G]-es do I [C] see. [E7]
-[Am] Blue bir- [Am/G#]-ds singing a [Am/G] so-[Am/F#]-ng,
-Nothing but [C] blue bir-[G]-ds, all day [C] long.
+[Am] Blue bir- [Am/G#]-ds singing a [Am/G] so-[D7]-ng,
+Nothing but [C] blue skies [G], from now [C] on. [C]
 
 {comment VERSE 2}
 [C] Never saw the sun [Fm] shining so [C] bright;
@@ -49,5 +45,5 @@ Nothing but [C] blue bir-[G]-ds, all day [C] long.
 [Fm] When you’re in [C] love, [G] my how they [C] fly! [G] Oh
 
 {comment CHORUS/OUTRO}
-[Am] Blue da-[Am/G#]-ys, all of them [Am/G] go-[Am/F#]-ne,
+[Am] Blue da-[Am/G#]-ys, all of them [Am/G] go-[D7]-ne,
 Nothing but [C] blue ski-[G]-es, from now [C] on [C]/ (stop! 2-3-4) [Am/G] (hold)	
