@@ -1,4 +1,4 @@
-{title: Rhinestone Cowboy - rev. 4-21-2026}
+{title: Rhinestone Cowboy - rev. 4-22-2026}
 {st: Writer: Larry Weiss / Artist: Glenn Campbell}
 {comment Main Strum (all full measure chords): d- du -u du (Island Strum)}
 {comment Split Strum (e.g., [*[C]]///-[*[F]]/ ): d- du -u d- , where "d- du -u" is on [*[C]] and the last "d" is on [*[F]]}
@@ -29,10 +29,20 @@ Like a [F][*/]rhine[G7][*/]stone [C][*///]-cowboy-[F][*/] [C]
 Getting [Cmaj7] cards and letters from [C6] people I don't even [Dm7] know
 And [G7] offers comin' over the…
 
-{comment INTERLUDE 1 + RIFF:}
+{comment INTERLUDE 1:}
+{tabsize: 120%}
+{tabfont: Courier-Bold}
+{sot}
+[F] phone          [F]            [G]            [G]// [F]/[G7]/ 
+-8----7----5--|--3----2---0--|--------------|--------------
+--------------|--------------|-3----1----0--|--------------
+--------------|--------------|--------------|--2----0---2--
+--------------|--------------|--------------|--------------
+{eot}
 [F] phone [F] [G] [G][*//] [F][*/] [G7][*/]
 [C][*///]-[F][*/] [C] 
 [C][*///]-[F][*/] [C] 
+
 
 {comment VERSE 2:}
 Well, I [C] really don't mind the [C] rain
@@ -54,8 +64,16 @@ Like a [F][*/]rhine[G7][*/]stone [C][*///]-cowboy-[F][*/] [C]
 Getting [Cmaj7] cards and letters from [C6] people I don't even [Dm7] know
 And [G7] offers comin' over the…
 
-{comment INTERLUDE 2 + RIFF:}
-[F] phone [F] [G] [G][*//] [F][*/] [G7][*/]
+{comment INTERLUDE 1:}
+{tabsize: 120%}
+{tabfont: Courier-Bold}
+{sot}
+[F] phone          [F]            [G]            [G]// [F]/[G7]/ 
+-8----7----5--|--3----2---0--|--------------|--------------
+--------------|--------------|-3----1----0--|--------------
+--------------|--------------|--------------|--2----0---2--
+--------------|--------------|--------------|--------------
+{eot}
 [C][*///]-[F][*/] [C] 
 [C][*///]-[F][*/] [C] 
 
@@ -72,20 +90,18 @@ Getting [Cmaj7] cards and letters from [C6] people I don't even [Dm7] know
 And [G7] offers comin' over the…
 
 {comment ENDING + RIFF:}
-[F] phone [F] [G] [G][*//] [F][*/] [G7][*/]
-[C][*///]-[F][*/] [C][*/] (hold)
 
-
-RIFF - First 4 measures of Interlude and Ending
 {tabsize: 120%}
 {tabfont: Courier-Bold}
 {sot}
-[F]            [F]            [G]            [G]// [F]/[G7]/ 
+[F] phone          [F]            [G]            [G]// [F]/[G7]/ 
 -8----7----5--|--3----2---0--|--------------|--------------
 --------------|--------------|-3----1----0--|--------------
 --------------|--------------|--------------|--2----0---2--
 --------------|--------------|--------------|--------------
 {eot}
+[C][*///]-[F][*/] [C][*/] (hold)
+
 
 
 
