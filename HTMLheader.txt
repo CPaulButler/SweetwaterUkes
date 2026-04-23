@@ -527,8 +527,12 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Practice at Cindy&#x27;s</div>
-            <div class="event-details">Thursday, April 23<br>2:00 PM</div>
+            <div class="event-name">Practice at Sarah&#x27;s</div>
+            <div class="event-details">Thursday, April 30<br>2:00 PM</div>
+          </li>
+          <li class="event-item">
+            <div class="event-name">Open Mic at Hops and Thyme</div>
+            <div class="event-details">Thursday, May 7<br>5:00 PM</div>
           </li>
         </ul>
       </aside>
