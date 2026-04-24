@@ -40,6 +40,7 @@ jobs:
           mkdir -p site
           cp -R music site/music
           cp -R assets site/assets
+          cp -R unlisted site/unlisted
           cp favicon.svg site/favicon.svg
           cp robots.txt site/robots.txt
           genlist --SortBy date music site/index.html --no-intro
