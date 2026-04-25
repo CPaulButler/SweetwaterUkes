@@ -1,10 +1,11 @@
-{t:Blue Skies - rev. 4-20-2016}
+{t:Blue Skies - rev. 4-24-2016}
 {st:Irving Berlin, 1926}
 {define: Am/G# frets 1 0 0 0}
 {define: Am/G frets 2 0 3 0}
 {define: D7 frets 2 0 2 0}
-
-{comment Strum: d- d- du du}
+{Comment Tempo: 143}
+{comment Main strum: d- du -u du (Island Strum)}
+{comment E7 strum: d- d- du du}
 
 {comment INTRO - Instrumental of CHORUS 1 first two line}
 [Am] [Am/G#][Am/G] [D7]
@@ -27,17 +28,29 @@ I [C] Never saw the sun [Fm] shining so [C] bright;
 Nothing but [C] blue ski-[G]-es, from now [C] on. [C]
 
 {comment INSTRUMENTAL - Chorus 1}
-[Am] [Am/G#][Am/G] [D7]
-[C] [G] [C] [E7]
-[Am] [Am/G#][Am/G] [D7]
-[C] [G] [C] [C]
+{tabsize: 120%}
+{tabfont: Courier-Bold}
+{sot}
+Riff
+  [Am]      [Am/G#]  [Am/G]   [D7}     {C]      [G}      [C]      [E7}     
+A |0---7---|----535-|7-------|----535-|7-------|------0-|3---352-|2--------|
+E |--------|--------|--------|--------|----3---|----3---|--------|---------|
+C |--------|--------|--------|--------|--------|--------|--------|---------|
+G |--------|--------|--------|--------|--------|--------|--------|---------|
+
+  [Am]      [Am/G#]  [Am/G]   [D7}     {C]      [G}      [C]      [C]     
+A |0---7---|----535-|7-------|----535-|7-------|------0-|3-------|---------|
+E |--------|--------|--------|--------|----3---|----3---|--------|---------|
+C |--------|--------|--------|--------|--------|--------|--------|---------|
+G |--------|--------|--------|--------|--------|--------|--------|---------|
+{eot}
 
 {comment CHORUS 3}
 [Am] Blue ski-[Am/G#]-es smiling at [Am/G] me-[D7]-e,
 Nothing but [C] blue ski-[G]-es do I [C] see. [E7]
 [Am] Blue bir- [Am/G#]-ds singing a [Am/G] so-[D7]-ng,
 Nothing but [C] blue skies [G], from now [C] on. [C]
-
+{new_page}
 {comment VERSE 2}
 [C] Never saw the sun [Fm] shining so [C] bright;
 [Fm] Never saw [C] things [G] going so [C] right.
