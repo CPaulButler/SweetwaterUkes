@@ -527,18 +527,6 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Practice at Cindy&#x27;s</div>
-            <div class="event-details">Thursday, May 21<br>2:00 PM – 4:00 PM</div>
-          </li>
-          <li class="event-item">
-            <div class="event-name">Practice at Cindy&#x27;s</div>
-            <div class="event-details">Saturday, May 23<br>10:30 AM – 12:30 PM</div>
-          </li>
-          <li class="event-item">
-            <div class="event-name">Practice at Cindy&#x27;s</div>
-            <div class="event-details">Thursday, May 28<br>2:00 PM – 4:00 PM</div>
-          </li>
-          <li class="event-item">
             <div class="event-name">Open Mic at Hops and Thyme</div>
             <div class="event-details">Thursday, June 4<br>5:00 PM – 8:00 PM</div>
           </li>
