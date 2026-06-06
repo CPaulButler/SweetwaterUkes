@@ -1,25 +1,27 @@
-{title: Have You Ever Seen the Rain - rev. 5-26-2026}
+{title: Have You Ever Seen the Rain - rev. 6-6-2026}
 {st: Credence Clearwater Revival, 1970}
-{comment Video: https://www.youtube.com/watch?v=bO28lB1uwp4}
 {comment Tempo: 120 /  Strum: d- du -u du  (Island Strume)}
-
+{define C/F frets 2 0 1 3}
 {tabsize: 100%}
 {tabfont: Courier-Bold}
 {sot}
+
  Riff      A |-3-2---0---------|
-           E |-----------3-----|
-           C |---------------2-|
-           G |-----------------|
-               1 & 2 & 3 & 4 &
+           E |-----------3---3-|  
+           C |-----------------|  
+           G |-----------------|  
+               1 & 2 & 3 & 4 &   
 {eot}
-{Comment INTRO}
-[Am]   [G]   [C]    [C][*+riff]   [C]    [C][*+riff]
 
-[C] Someone told me [C] long ago
+{Comment [*[C]]-[*[C/F]] is 3 beats on [*[C]] & one of [*[C/F]].}
+
+[Am]   [G]   [C]   [C]-[C/F] [*+riff]   
+
+[C] Someone told me [C]-[C/F] long ago
 [C] There's a calm [C] before the storm
-[G] I know [G] it's been comin' [C] for some time [C]
+[G] I know [G] it's been comin' [C] for some time [C]-[C/F] 
 
-[C] When it's over [C] so they say
+[C] When it's over [C]-[C/F] so they say
 [C] It'll rain a [C] sunny day
 [G] I know [G] shinin' down like [C] water [C7]
 
@@ -27,13 +29,13 @@
 Have you [C] ever [Em] seen the [Am] rain? [G]
 [F] I want to [G7] know
 Have you [C] ever [Em] seen the [Am] rain [G]
-[F] Comin' [G7] down on a sunny [C] day? [C][*+riff] 
+[F] Comin' [G7] down on a sunny [C] day? [C]-[C/F] [*+riff] 
 
-[C] Yesterday and [C] days before
+[C] Yesterday and [C]-[C/F]  days before
 [C] Sun is cold and [C] rain is hard
-[G] I know [G] been that way for [C] all my time [C][*+riff]
+[G] I know [G] been that way for [C] all my time [C]-[C/F] [*+riff]
 
-[C] 'Til forever, [C] on it goes
+[C] 'Til forever, [C]-[C/F]  on it goes
 [C] Through the circle, [C] fast and slow,
 [G] I know [G] it can't stop, I [C] wonder  [C7]   
 
@@ -41,10 +43,10 @@ Have you [C] ever [Em] seen the [Am] rain [G]
 Have you [C] ever [Em] seen the [Am] rain? [G]
 [F] I want to [G7] know
 Have you [C] ever [Em] seen the [Am] rain [G]
-[F] Comin' [G7] down on a sunny [C] day? [C][*+riff] 
+[F] Comin' [G7] down on a sunny [C] day? [C7] 
 
 [F] I want to [G7] know
 Have you [C] ever [Em] seen the [Am] rain? [G]
 [F] I want to [G7] know
 Have you [C] ever [Em] seen the [Am] rain [G]
-[F] Comin' [G7] down on a sunny [C] day? [C][*+riff]   [C][*/(hold)]  
+[F] Comin' [G7] down on a sunny [C] day? [C]-[C/F] [*+riff]   [C][*/(hold)]  
