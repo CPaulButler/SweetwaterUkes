@@ -527,8 +527,8 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Open Mic at Hops and Thyme</div>
-            <div class="event-details">Thursday, June 4<br>5:00 PM – 8:00 PM</div>
+            <div class="event-name">Practice at Cindy&#x27;s</div>
+            <div class="event-details">Thursday, June 18<br>2:30 PM - 4:00 PM</div>
           </li>
         </ul>
       </aside>
