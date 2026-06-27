@@ -1,6 +1,7 @@
-{title: Don't Bring Me Down}
+{title: Don't Bring Me Down - rev. 6-26-2026} 
 {subtitle:  Electric Light Orchestra, 1979}
-{comment: Tempo: 115, Suggested strum: d- du -u du (Island Strum)}
+{comment: Tempo: 115}
+{comment: Strum: d- du -u du (Island Strum)}
 {define F#m frets 2 1 2 0}
 {tabfont: Courier-Bold}
 {sot}
@@ -12,7 +13,7 @@ Riff: A |----------|--- ...
           1&2&3&4&   1&
 {end_of_tab}
 
-{comment INTRO: [X] = muted strum}
+{comment INTRO: [*[X]] = muted strum}
 [*[X]]   [*[X]]    [*[X]]   [*[X]]
 [A]   [A]   [A]   [A][*+riff]
 
@@ -30,13 +31,15 @@ Don't bring me [A] down [A]
 Don't bring me [D] down
 [D] No, no, no, no, [A] no, ooo– ooo– hooo [A]
 I'll [C] tell you once more before I [G] get off the [D] floor
-Don't bring me [A][*/-(stop)] down
+Don't bring me [A] down [A][*/-(stop)]
 
 {comment BRIDGE 1:}
 [*[NC]] Don't bring me [F#m] down, [A] groose
 Don't bring me [F#m] down, [A] groose
 Don't bring me [F#m] down, [A] groose
 Don't bring me [E7] down [E7][*+riff]
+
+{new_page}
 
 {comment VERSE 3:} 
 [A] ' What happened to the girl I [A][*+riff] used to know?
@@ -54,7 +57,7 @@ Don't bring me [D] down
 I'll [C] tell you once more before I [G] get off the [D] floor
 Don't bring me [A] down [A][*/-(stop)]
 
-{comment BRIDGE 1:}
+{comment BRIDGE 2:}
 [*[NC]] Don't bring me [F#m] down, [A] groose
 Don't bring me [F#m] down, [A] groose
 Don't bring me [F#m] down, [A] groose

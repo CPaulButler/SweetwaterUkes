@@ -1,16 +1,16 @@
-{title: Have You Ever Seen the Rain - rev. 6-6-2026}
+{title: Have You Ever Seen the Rain - rev. 6-36-2026}
 {st: Credence Clearwater Revival, 1970}
-{comment Tempo: 120 /  Strum: d- du -u du  (Island Strume)}
+{comment Tempo: 120 /  Strum: d- du -u du  (Island Strum)}
 {define C/F frets 2 0 1 3}
 {tabsize: 100%}
 {tabfont: Courier-Bold}
 {sot}
 
- Riff      A |-3-2---0---------|
-           E |-----------3---3-|  
-           C |-----------------|  
-           G |-----------------|  
-               1 & 2 & 3 & 4 &   
+ Riff      A |-3-2---0---------|-----
+           E |-----------3---3-|-----  
+           C |-----------------|-0---  
+           G |-----------------|-----  
+               1 & 2 & 3 & 4 &   1 & 
 {eot}
 
 {Comment [*[C]]-[*[C/F]] is 3 beats on [*[C]] & one of [*[C/F]].}
