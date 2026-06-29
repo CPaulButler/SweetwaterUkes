@@ -1,87 +1,84 @@
-{title: Closer to Fine - rev. 5-21-2026}
-{st: Indigo Girls, 1989}
-{define: Gsus2 frets 0 2 3 0}
-{define: Gsus4 frets 0 2 3 3}
-{define: Dsus2 frets 2 2 0 0}
-{define: Dsus4 frets 2 2 3 0}
-{comment: Tempo: 94}
-{comment: Strum: d- d- du du}
-{comment: Note:} 
-   Can substitute one beat each of [Dsus4]-[D]-[Dsus2]-[D], instead of 4 beats of [D] at end lines
+{t:Black Water - rev. 6-26-2026}
+{st:Doobie Brothers, 1974}
+{define: Am/G# frets 1 0 0 0}
 
-{comment: INTRO}
-[G] [Gsus4] [C] [D]
-[G] [Gsus4] [C] [D]
+{Comment Tempo: 88}
+{comment Strum: d- du -u du (Island Strum)}
 
-{comment: VERSE 1}
-I'm [G] trying to tell you [Gsus4] something about my [C] life [D]
-Maybe [G] give me insight [Gsus4] between black and [C] white [D]
-The [Dsus2] best thing you've ever done for [C] me
-Is to [Dsus2] help me take my life less serious-[C]ly, it's only life [G] after all [Gsus2] [C] [D]
+{comment INTRO}
+[Am7]  [D]   [Am7]  [D]
 
-{comment: VERSE 2}
-Well [G] darkness has a [Gsus4] hunger that's in-[C]satiable [D]
-And [G] lightness has a [Gsus4] call that's hard to [C] hear [D]
-I [Dsus2] wrap my fear around me like a [C] blanket
-I [Dsus2] sailed my ship of safety till I [C] sank it, I'm crawling on your [G] shore [G][*/][G][*/](stop)
+{comment VERSE 1}
+Well, I [Am7] built me a [D] raft and she's [Am7] ready for [D] floatin'
+[Am7] ole Missi-[D]ssippi, she's [Am7] callin' my [D] name
+[Am7] Catfish are [D] jumpin', that [Am7] paddle-wheel [D] thumpin'
+black [Am7] water keeps [D] rollin' on [Am7] past just the [D] same.
 
-{comment: CHORUS 2}
-And I [D] went to the doctor, I [C] went to the [G] mountains
-I [D] looked to the children, I [C] drank from the [G] fountains
-There's [Dsus2] more than one answer to these [C] questions
-Pointing me in a [G] crooked line [G][*/][G][*/](hold)
-And the [Dsus2] less I seek my source for some de-[C]finitive [C][*/](hold)
-    Closer I [G] am to fine, [Gsus4] yeah [C] [D]
-    Closer I [G] am to fine, [Gsus4] yeah [C] [D]
+{comment PRE-CHORUS 1}
+[G] Old black water, keep on rollin'
+[Bb] Mississippi moon won't you keep on shinin'
+[G] Old black water, keep on rollin'
+[Bb] Mississippi moon won't you keep on shinin'
+[G] Old black water, keep on rollin'
+[Bb] Mississippi moon won't you keep on shinin' on [A] me?  [Em7]
 
-{comment: VERSE 3}
-I [G] went to see the [Gsus4] doctor of [C] philosophy [D]
-With a [G] poster of Ras-[Gsus4]putin and a [C] beard down to his knee [D]
-He [Dsus2] never did marry or [C] see a B-grade movie
-He [Dsus2] graded my performance, he [C] said he could see through me
-I spent [G] four years [Gsus4] prostrate to the higher [C] mind,
-got my paper [D] And I was [G] free [G][*/][G][*/](hold)
+{comment CHORUS 1}
+Yeah, keep on [A] shinin' your [Em7] light, gonna make 
+[A] every .... [Em7]thing, pretty mama, gonna 
+[A] make everything all [Em7] right.
+And I [D] ain't got no [Am7] worries
+'cause I [D] ain't in no [Am7] hurry..at 
+[A] all [Em7] [A] [A]/(hold)
 
-{comment: CHORUS 3}
-And I [D] went to the doctor, I [C] went to the [G] mountains
-I [D] looked to the children, I [C] drank from the [G] fountains
-There's [Dsus2] more than one answer to these [C] questions
-Pointing me in a [G] crooked line
-And the [Dsus2] less I seek my source for some de-[C]finitive [C][*/](hold)
-    Closer I [G] am to fine, [Gsus4] yeah [C] [D]
-    Closer I [G] am to fine, [Gsus4] yeah [C] [D]
+{comment INTERLUDE 1}
+[Am7]  [D]   [Am7]  [D]
 
-{new_page}
-{comment: VERSE 4}
-I [G] stopped by the [Gsus4] bar at 3 a.-[C]m. [D]
-To seek [G] solace in a [Gsus4] bottle or [C] possibly a friend [D]
-And I [Dsus2] woke up with a headache like my [C] head against a board
-[Dsus2] Twice as cloudy as I'd been the [C] night before
-When I went in seeking [G] clarity [G][*/][G][*/](hold)
+{comment VERSE 2}
+Well, if it [Am7] rains, I don't [D] care,
+don't make no [Am7] difference to [D] me.
+Just take that [Am7] street car that's [D] goin' up [Am7] town  [D]
+Yeah, I'd like to [Am7] hear some funky [D] Dixieland
+and [Am7] dance a honky-[D]tonk
+and I'll be [Am7] buyin' everybody [D] drinks all [Am7] round. [D]
+ 
+{comment PRE-CHORUS 2}
+[G] Old black water, keep on rollin'
+[Bb] Mississippi moon won't you keep on shinin'
+[G] Old black water, keep on rollin'
+[Bb] Mississippi moon won't you keep on shinin'
+[G] Old black water, keep on rollin'
+[Bb] Mississippi moon won't you keep on shinin' on [A] me?  [Em7]
 
-{comment: CHORUS 4}
-I [D] went to the doctor, I [C] went to the [G] mountains
-I [D] looked to the children, I [C] drank from the [G] fountain
-We [D] go to the doctor, we [C] go to the [G] mountains
-We [D] look to the children, we [C] drink from the [G] fountain
-Yeah, we [D] go to the Bible, we [C] go through the [G] workout
-We [D] read up on revival, and we [C][*/][*(hold)] stand up for the  [G][*/][*(hold)] lookout
-There's [Dsus2] more than one answer to these [C] questions
-Pointing me in a [G] crooked line
-And the [Dsus2] less I seek my source for some de-[C]finitive [C]
-    Closer I [G] am to fine, [Gsus4] yeah [C] [D]
-    Closer I [G] am to fine, [Gsus4] yeah [C] [D]
-    Closer I [G] am to fine, [Gsus4] yeah [C] [D]  [G][*/](hold)
+{comment CHORUS 2}
+Yeah, keep on [A] shinin' your [Em7] light, gonna make 
+[A] every .... [Em7]thing, pretty mama, gonna 
+[A] make everything all [Em7] right.
+And I [D] ain't got no [Am7] worries
+'cause I [D] ain't in no [Am7] hurry..at 
+[A] all [Em7] [A] [A]/(hold)
 
--------------------
+{comment INTERLUDE 2}
+[Am7]  [D]   [Am7]  [D]
 
-{comment INSTRUMENTAL - leave out for now. Would go before Verse 4 }
-{tabsize: 100%}
-{tabfont: Courier-Bold}
-{sot}
-      [Dsus2]   [Dsus2]    [C]       [C]         [Dsus2]  [Dsus2]  [C]      [C]   
-A 10-|12-------|------12-|-10------|------7-|7-5-----|----3-2-|32------|--------|
-E ---|---------|---------|---------|--------|--------|--------|--3-----|----0---|
-C ---|---------|---------|---------|--------|--------|--------|--------|------2-|
-G ---|---------|---------|---------|--------|--------|--------|--------|--------|
-{eot}
+{comment VERSE 3}
+I'd like to [Am7] hear some funky [D] Dixieland,
+pretty [Am7] momma come and take me  [D] by the hand
+
+{comment ENDING - start a capella}
+
+[*Lines sung together]
+By the hand HAND, take me by the hand PRETTY MAMA,
+come and dance with your daddy, all night long
+I'd like to hear some funky Dixieland,
+pretty momma come and take me by the hand
+
+[*Pairs of lines sung at the same time]
+By the hand HAND, take me by the hand   PRETTY MAMA,
+(I wanna HONKY-TONK, HONKY-TONK PRETTY MAMA,)
+
+come and dance with your daddy,  all night long 
+(I wanna HONKY-TONK with you, all night long)
+   
+[*Lines sung together]
+I'd like to hear some funky Dixieland,
+pretty momma come and take me by the hand
