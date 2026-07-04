@@ -1,4 +1,4 @@
-{t: Swinging on a Star - rev. 5-29-2026}
+{t: Swinging on a Star - rev. 7-3-2026}
 {st:Music: Jimmy Van Huesen, Lyrics: Johnny Birke, Artist: Bing Crosby, 1944}
 {key: G}
 {define: F# frets 0 1 2 1}
@@ -14,7 +14,7 @@ A [G] mule is an [C] animal with [G] long funny [C] ears
 He [G] kicks up at [C] anything he [G] hears [Em7]
 His [A7] back is brawny but his [D] brain is weak
 
-He's [Em7] just plain [A7] stupid with a [D]/ stub-[A7]/born [D7] streak
+He's [Em7] just plain [A7] stupid with a [D][*/] stub-[A7][*/] born [D7][*/] streak
 And by the [G] way if you [C] hate to go to [G] school [E7]
 [Am] You may grow [D7] up to be a [G]/ mule [*(stop)]
 
@@ -27,7 +27,7 @@ A [G] pig is an [C] animal with [G] dirt on his [C] face
 His [G] shoes are a [C] terrible dis-[G]grace [Em7]
 He [A7] has no manners when he [D] eats his food
 
-He's [Em7] fat and [A7] lazy and ex-[D]treme[A7]ly [D7] rude
+He's [Em7] fat and [A7] lazy and ex-[D][*/] treme[A7][*/] ly [D7][*/] rude
 But if you [G] don't care a [C] feather or a [G] fig [E7]
 [Am] You may grow [D7] up to be a [G]/ pig [*(stop)]
 
@@ -40,11 +40,13 @@ A [G] fish won't do [C] anything but [G] swim in a [C] brook
 He [G] can't write his [C] name or read a [G] book [Em7]
 To [A7] fool the people is his [D] only thought
 
-And [Em7] though he's [A7] slippery he [D] still [A7] gets [D7]caught
+And [Em7] though he's [A7] slippery he [D][*/] still [A7][*/] gets [D7][*/] caught
 But then if [G] that sort of [C] life is what you [G] wish [E7]
 [Am] You may grow [D7] up to be a [G] fish
 
+{new_page}
 And all the [E7] monkeys aren't in the [A7] zoo
 Every [D7] day you meet quite a [G] few
-So you [E7] see it's all up to [A7] you [D7] you can be better than you [E7] are
+So you [E7] see it's all up to [A7] you 
+[D7] You can be better than you [E7] are
 [Am] You could be [D7] swingin' on a [G]/ star  [F#]/  [G]/ (hold)

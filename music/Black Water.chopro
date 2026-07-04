@@ -1,4 +1,4 @@
-{t:Black Water - rev. 6-26-2026}
+{t:Black Water - rev. 7-3-2026}
 {st:Doobie Brothers, 1974}
 {define: Am/G# frets 1 0 0 0}
 
@@ -28,7 +28,7 @@ Yeah, keep on [A] shinin' your [Em7] light, gonna make
 [A] make everything all [Em7] right.
 And I [D] ain't got no [Am7] worries
 'cause I [D] ain't in no [Am7] hurry..at 
-[A] all [Em7] [A] [A]/(hold)
+[A] all [Em7] [A] [A] [*/(hold)]
 
 {comment INTERLUDE 1}
 [Am7]  [D]   [Am7]  [D]
@@ -55,7 +55,7 @@ Yeah, keep on [A] shinin' your [Em7] light, gonna make
 [A] make everything all [Em7] right.
 And I [D] ain't got no [Am7] worries
 'cause I [D] ain't in no [Am7] hurry..at 
-[A] all [Em7] [A] [A]/(hold)
+[A] all [Em7] [A] [A] [*/(hold)]
 
 {comment INTERLUDE 2}
 [Am7]  [D]   [Am7]  [D]
@@ -64,21 +64,23 @@ And I [D] ain't got no [Am7] worries
 I'd like to [Am7] hear some funky [D] Dixieland,
 pretty [Am7] momma come and take me  [D] by the hand
 
-{comment ENDING - start a capella}
+{comment a cappella with slaps on beats 2 and 4}
 
-[*Lines sung together]
+{comment Sing lines in unison}
 By the hand HAND, take me by the hand PRETTY MAMA,
 come and dance with your daddy, all night long
 I'd like to hear some funky Dixieland,
 pretty momma come and take me by the hand
 
-[*Pairs of lines sung at the same time]
+{comment Pairs of lines sung at the same time}
 By the hand HAND, take me by the hand   PRETTY MAMA,
 (I wanna HONKY-TONK, HONKY-TONK PRETTY MAMA,)
 
 come and dance with your daddy,  all night long 
 (I wanna HONKY-TONK with you, all night long)
-   
-[*Lines sung together]
+
+{comment ENDING}
+{comment STOP slaps}   
+{comment Sing lines in unison}
 I'd like to hear some funky Dixieland,
 pretty momma come and take me by the hand
