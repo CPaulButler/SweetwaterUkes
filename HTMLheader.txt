@@ -527,8 +527,8 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Practice at Cindy&#x27;s</div>
-            <div class="event-details">Thursday, June 18<br>2:30 PM - 4:00 PM</div>
+            <div class="event-name">Open Mic at St. John&#x27;s Methodist</div>
+            <div class="event-details">Friday, July 10<br>4:00 PM<br><a href="https://maps.app.goo.gl/EhSPHPLaLj4eYteD8" target="_blank" rel="noopener">2140 Allandale Rd, Austin, TX 78756</a></div>
           </li>
         </ul>
       </aside>
