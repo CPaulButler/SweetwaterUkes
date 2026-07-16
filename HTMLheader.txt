@@ -527,8 +527,12 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Open Mic at St. John&#x27;s Methodist</div>
-            <div class="event-details">Friday, July 10<br>4:00 PM<br><a href="https://maps.app.goo.gl/EhSPHPLaLj4eYteD8" target="_blank" rel="noopener">2140 Allandale Rd, Austin, TX 78756</a></div>
+            <div class="event-name">Practice at Sarah&#x27;s</div>
+            <div class="event-details">Thursday, July 23<br>9:30 AM</div>
+          </li>
+          <li class="event-item">
+            <div class="event-name">Performance at Cindy&#x27;s HOA</div>
+            <div class="event-details">Wednesday, August 19<br>5:00 PM - 7:00 PM</div>
           </li>
         </ul>
       </aside>
