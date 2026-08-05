@@ -1,8 +1,9 @@
-{title: Our House - rev. 6-26-2026}  
+{title: Our House - rev. 8-2-2026}  
 {subtitle: Writer: Graham Nash (1970), Artist: CSNY}
 
 {define: Asus4 frets 2 2 0 0}
 {define: F#m frets 2 1 2 0}
+2{define D* base-fret 2 fingers 1 1 1 1 frets 1 1 1 4}
 
 {comment_box Single strums, slow tempo (62 bpm)}
 
@@ -28,15 +29,19 @@ the [F#m] windows are il-[A]luminated
 
 [A] Our [Amaj7] house is a [F#m] very, very, very fine [A] house
 with [D] two cats in the [A] yard, Life [D] used to be so [A] hard
-Now [D] everything is [A] easy 'cause of [D] you [D]  [Bm] and  [Bm7] I
+Now [D] everything is [A] easy 'cause of [D] you [D]  
+[Bm] and  [D*] our
 
-La-La's Here
-[A] [Amaj7] [F#m] [A] [D] [A] [D] [E7]
-[A] [Amaj7] [F#m] [A] [D] [F]
+[A] Laaa-laaa [Amaj7] la-la-la-la ' La-[F#m]aa-la-la-la ' La-[A]aa-la-la-la la-la 
+[D] Laaaa la-la-la [A] la la-laaa-la [D] la la-laaa-la [E7] la la la la 
+
+[A] Laaa-laaa [Amaj7] la-la-la-la ' La-[F#m]aa-la-la-la ' La-[A]aa-la-la-la la-la  
+[D] Laaaa la-la-la [F] la la-la-laaa
 
 [A] Our [Amaj7] house is a [F#m] very, very, very fine [A] house
 with [D] two cats in the [A] yard, Life [D] used to be so [A] hard
-Now [D] everything is [A] easy 'cause of [D] you [D] [*(...slowing)]  [Bm] and [Bm7] I
+Now [D] everything is [A] easy 'cause of [D] you [D] 
+[*(slowing)]      [Bm] and [D*] our
 
 {comment_box Single strums, slow tempo (62 bpm)}
 
