@@ -43,7 +43,7 @@ jobs:
           cp -R unlisted site/unlisted
           cp favicon.svg site/favicon.svg
           cp robots.txt site/robots.txt
-          genlist --SortBy date music site/index.html --no-intro
+          genlist --SortBy userSelect music site/index.html --no-intro
           touch site/.nojekyll
 
 
