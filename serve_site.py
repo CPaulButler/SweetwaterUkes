@@ -67,7 +67,7 @@ def build_site(repo_root: Path, site_dir: Path, clean: bool) -> int:
 
     index_path = site_dir / "index.html"
     subprocess.run(
-        [genlist_path, "music", str(index_path), "--no-intro"],
+        [genlist_path, "music", "--SortBy", "userSelect", str(index_path), "--no-intro"],
         check=True,
         cwd=str(repo_root),
     )
