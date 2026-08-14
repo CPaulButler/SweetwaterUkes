@@ -527,16 +527,8 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Practice at Sara&#x27;s House</div>
-            <div class="event-details">Thursday, August 6<br>9:30 AM - 11:30 AM</div>
-          </li>
-          <li class="event-item">
-            <div class="event-name">Practice at Cindy&#x27;s House</div>
-            <div class="event-details">Monday, August 10<br>2:00 PM - 4:00 PM</div>
-          </li>
-          <li class="event-item">
-            <div class="event-name">Performance at Cindy&#x27;s HOA</div>
-            <div class="event-details">Wednesday, August 12<br>5:00 PM - 7:00 PM</div>
+            <div class="event-name">Sing-a-long at Rudy&#x27;s BBQ</div>
+            <div class="event-details">Thursday, August 27<br>2:00 PM - 4:00 PM<br><a href="https://maps.app.goo.gl/ncxTUMrZARU23RpHA" target="_blank" rel="noopener noreferrer">7709 Ranch Road 620</a></div>
           </li>
         </ul>
       </aside>
