@@ -540,8 +540,8 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Sing-a-long at Rudy&#x27;s BBQ</div>
-            <div class="event-details">Thursday, August 27<br>2:00 PM - 4:00 PM<br><a href="https://maps.app.goo.gl/ncxTUMrZARU23RpHA" target="_blank" rel="noopener noreferrer">7709 Ranch Road 620</a></div>
+            <div class="event-name">Rudy&#x27;s Sing-a-long</div>
+            <div class="event-details">Thursday, September 17<br>2:00 PM - 4:00 PM<br><a href="https://maps.app.goo.gl/ncxTUMrZARU23RpHA" target="_blank" rel="noopener noreferrer">7709 Ranch Road 620</a></div>
           </li>
         </ul>
         <figure class="events-panel-image">
