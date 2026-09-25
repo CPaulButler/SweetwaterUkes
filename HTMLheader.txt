@@ -541,7 +541,7 @@
         <ul class="events-list">
           <li class="event-item">
             <div class="event-name">Practice at Sarah&#x27;s</div>
-            <div class="event-details">Thursday, September 24<br>2:00 PM - 4:00 PM</div>
+            <div class="event-details">Thursday, October 22<br>2:00 PM - 4:00 PM</div>
           </li>
         </ul>
         <figure class="events-panel-image">
