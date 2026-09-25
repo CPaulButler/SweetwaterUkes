@@ -545,7 +545,7 @@
           </li>
         </ul>
         <figure class="events-panel-image">
-          <img src="assets/Polo.webp" alt="Polo">
+          <img src="assets/GroupPhoto.webp" alt="Group">
         </figure>
       </aside>
       <section class="archive-card">
