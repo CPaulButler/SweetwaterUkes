@@ -543,6 +543,11 @@
             <div class="event-name">Practice at Sarah&#x27;s</div>
             <div class="event-details">Thursday, October 22<br>3:00 PM - 5:00 PM</div>
           </li>
+          <li class="event-item">
+            <div class="event-name">Longhorn Village</div>
+            <div class="event-details">Sunday, December 13, 2026<br>12504 Longhorn Pkwy, Austin<br>3:00 PM</div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.0146208641704!2d-97.91233942443446!3d30.35053437477094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865b36e40cfd2af3%3A0xcaaef102800582d1!2s12501%20Longhorn%20Pkwy%2C%20Austin%2C%20TX%2078732!5e0!3m2!1sen!2sus!4v1792423723276!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </li>
         </ul>
         <figure class="events-panel-image">
           <img src="assets/GroupPhoto.webp" alt="Group">
