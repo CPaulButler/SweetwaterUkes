@@ -39,6 +39,7 @@ jobs:
           set -euo pipefail
           mkdir -p site
           cp -R music site/music
+          cp -R Hidden site/Hidden
           cp -R assets site/assets
           cp -R unlisted site/unlisted
           cp favicon.svg site/favicon.svg
