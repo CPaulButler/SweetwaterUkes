@@ -1,10 +1,10 @@
-{title: Rockin' Christmas Medley - rev. 10-26-2026}
+{title: Rockin' Christmas Medley - rev. 10-28-2026}
 {subtitle:  Rockin' Around the Christmas Tree - Jingle Bell Rock - Feliz Navidad  /   Arrangement by Bob Guz}
 {comment: Tempo: 146 / Strum: (d- du du du)} 
 
 {Comment Intro:} 
-[C]   [Am]   [F]   [G7]
-[C]   [Am]   [F]   [G7]
+[C]   [Am]   [F]   [G7]     [C]   [Am]   [F]   [G7]
+
 
 {comment_box Rockin' Around the Christmas Tree}
 
@@ -34,6 +34,7 @@ In the [Dm] new old-[G7] fashioned [C] way [G7]
 
 
 {comment_box Jingle Bell Rock}
+
 {comment: Strum: (d- du du du)} 
 
 {comment Verse 1}
@@ -53,7 +54,7 @@ What a  [F] bright time
 It's the [F] right time
 To [C] rock the night away
 Jingle [D7] bell time is a swell time
-[G7] [*/ muted strums] ' To go gliding in a one‐horse sleigh
+[G7] [*/(STOP)] ' To go gliding in a one‐horse sleigh
 
 {comment Verse 3}
 [C] Giddy-up [Cmaj7] jingle horse, [C6] pick up your feet,
@@ -65,23 +66,24 @@ Jingle [D7] bell time is a swell time
 
 
 {comment_box Feliz Navidad}
+
 {comment: Strum: (d- du -u du)} 
 
-{comment Verse}
-[*[NC]] Feliz Navi–[F]dad [G],    Feliz Navi–[C] dad
-Feliz Navi–[F]dad,    Próspero [G] año y felici–[C]dad [C] [*/ {(STOP)]
+{comment Verse 1}
+[*[NC]] Feliz Navi–[F]dad [G],  ' '  Feliz Navi–[C] dad
+[C] ' ' Feliz Navi–[F]dad,    Próspero [G] año y felici–[C]dad [C] [*/ {(STOP)]
 
-{comment Chorus}
+{comment Verse 2}
+[*[NC]] Feliz Navi–[F]dad [G],  ' '  Feliz Navi–[C] dad
+[C] ' ' Feliz Navi–[F]dad,    Próspero [G] año y felici–[C]dad [C] [*/ {(STOP)]
+
+{comment Chorus 1}
 [*[NC]] I wanna wish you a [F] Merry Christmas [G]
 I wanna wish you a [C] Merry Christmas [Am]
 I wanna wish you a [F] Merry Christmas from the
 [G] Bottom of my [C] heart [C] [*/ (STOP)] 
 
-{comment Verse}
-[*[NC]] Feliz Navi–[F]dad [G],    Feliz Navi–[C] dad
-Feliz Navi–[F]dad,    Próspero [G] año y felici–[C]dad [C] [*/ {(STOP)]
-
-{comment Chorus and Ending}
+{comment Chorus 2 and Ending}
 [*[NC]] I wanna wish you a [F] Merry Christmas [G]
 I wanna wish you a [C] Merry Christmas [Am]
 I wanna wish you a [F] Merry Christmas from the
