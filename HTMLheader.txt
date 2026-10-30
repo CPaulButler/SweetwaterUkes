@@ -541,15 +541,19 @@
         <ul class="events-list">
           <li class="event-item">
             <div class="event-name">Practice at Sarah&#x27;s</div>
-            <div class="event-details">Thursday, October 29<br>2:00 PM - 4:00 PM</div>
-          </li>
-          <li class="event-item">
-            <div class="event-name">Practice at Sarah&#x27;s</div>
             <div class="event-details">Thursday, November 5<br>2:00 PM - 4:00 PM</div>
           </li>
           <li class="event-item">
             <div class="event-name">Practice at Sarah&#x27;s</div>
             <div class="event-details">Thursday, November 19<br>2:00 PM - 4:00 PM</div>
+          </li>
+          <li class="event-item">
+            <div class="event-name">Sweetwater Clubhouse - Cocoa with Santa</div>
+            <div class="event-details">Sunday, December 6, 2026<br>11:00 AM - 12:00 PM<br>Set up: 10:00 AM<br><a href="https://www.google.com/maps/search/17922+Sweetwater+Club+Circle,+Austin+Tx?entry=gmail&amp;source=g">17922 Sweetwater Club Circle, Austin, TX</a><br>Kid-friendly program during Cocoa with Santa; covered outdoor patio.</div>
+          </li>
+          <li class="event-item">
+            <div class="event-name">Tuscan Village HOA</div>
+            <div class="event-details">Monday, December 7, 2026<br>6:00 PM - 7:00 PM<br>Set up: 5:00 PM<br>Bella Toscana Ave, Lakeway, TX</div>
           </li>
           <li class="event-item">
             <div class="event-name">Longhorn Village</div>
