@@ -1,6 +1,6 @@
-{title: You’re a Mean One Mr. Grinch - rev. 10-28-2026}
+{title: You’re a Mean One Mr. Grinch - rev. 11-01-2026}
 {subtitle: Theodor "Dr. Seuss" Geisel, 1966}
-{define C#dim frets 0 1 0 1}
+{define: C#dim frets 0 1 0 1}
 {comment Tempo: 105 / Strum: (du du du du) swing beat}
 
 {comment Intro}
@@ -32,7 +32,7 @@ You have [Am] all the tender [Dm] sweetness of
 A [G] seasick [C] crocodile
 Mister [F] Gr-i-i-nch [E7][*/ (STOP!)]
 <i><b>Solo: </b> </i> Given the choice between the two of you ... I’d take the seasick [Am] crocodile [Dm]
-[Am]-[Dm] [Am]-[Dm] [Am]-[Dm]] [E7][*/ (STOP!)]
+[Am]-[Dm] [Am]-[Dm] [Am]-[Dm] [E7][*/ (STOP!)]
 
 {comment Verse 4}
 You’re a [Am] rotter, [Dm] Mister [G] Grinch [C]
