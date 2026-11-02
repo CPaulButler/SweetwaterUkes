@@ -1,14 +1,14 @@
-{title: Little Saint Nick - rev. 10-28-2026}
+{title: Little Saint Nick - rev. 11-02-2026}
 {subtitle: Arrangement by Bob Guz}
 {define C#dim frets 0 1 0 1}
 {comment: Tempo: 110 / Strum: (d- du -u du)} 
 
 {comment: Intro:}
 
+        [C]                   [C]                   [Dm]               [Dm]                [C]                   [C]
 {tabsize: 110%}
 {tabfont: Courier-Bold}
 {sot}
-    [C]        [C]        [Dm]      [Dm]        [C]        [C]
 A | -3-0---- | -------- | -3-0---- | -------- | -------- | -------- |
 E | 3----3-- | -------- | 3----3-- | -------- | -------- | -------- |
 C | -------- | -------- | -------- | -------- | -------- | -------- |
@@ -16,9 +16,11 @@ G | -------- | -------- | -------- | -------- | -------- | -------- |
     1&2&3&4&   1&2&3&4&   1&2&3&4& 1&2&3&4&     1&2&3&4&   1&2&3&4&   
 {end_of_tab}
 
-[Dm] Oooooo, [Dm] Merry Christmas
-[C] Saint Nick              [C]
-      (Christmas comes this time each year)
+[Dm] Oooooo, [Dm] Merry Christmas 
+
+<i><b>High voice:</b></i>   [C] Saint Nick                    [C]
+<i><b>Low voice: </b>        Christmas comes this      time each year</i>
+
 [Dm] Oooooo, [G7] Oooooo,
 
 {comment Verse 1}
@@ -28,10 +30,11 @@ And a [Dm7] real famous cat all dressed [G7] up in red
 And he [C] spends the whole year workin’ [C#dim] out on his sled
 
 {comment Chorus 1}
-It’s the [F] Little Saint Nick, Little [F] Saint Nick
-                 (Oooooooooooo,  Little       Saint Nick)
-It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
-                     (Oooooooooooo,  Little          Saint Nick)
+<i><b>High voice:</b></i>   It’s the [F] Little Saint Nick, Little [F] Saint Nick
+<i><b>Low voice: </b>                   Ooooooooooo,   Little      Saint Nick)</i>
+
+<i><b>High voice:</b></i>   It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
+<i><b>Low voice: </b>                      Ooooooooooo,   Little         Saint Nick)</i>
 
 {comment Verse 2}
 Just a [Dm7] little bobsled, we call it [G7] ol’ Saint Nick
@@ -40,26 +43,26 @@ She’s [Dm7] candy-apple red with a [G7] ski for a wheel
 And when [C] Santa hits the gas, man, just [C#dim] watch her peel
 
 {comment Chorus 2}
-It’s the [F] Little Saint Nick, Little [F] Saint Nick
-                 (Oooooooooooo,  Little       Saint Nick)
-It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
-                     (Oooooooooooo,  Little          Saint Nick)
+<i><b>High voice:</b></i>   It’s the [F] Little Saint Nick, Little [F] Saint Nick
+<i><b>Low voice: </b>                   Ooooooooooo,   Little      Saint Nick)</i>
+
+<i><b>High voice:</b></i>   It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
+<i><b>Low voice: </b>                      Ooooooooooo,   Little         Saint Nick)</i>
 
 {new_page}
-{comment Bridge 1}
-
+{comment Bridge 1} 
+     [F] Run, run       [F]             [Bb] Run, run   [Bb] Whoooa  [F] Run, run    [F]                   [D] Run, run              
+           reindeer                                  reindeer                                                                                      reindeer
 {tabsize: 110%}
 {tabfont: Courier-Bold}
 {sot}
-     Run, run              Run, run              Run, run               Run, run  
-  [F]reindeer  [F]      [Bb]reindeer [Bb] Whoa [F]reindeer [F]       [D] reindeer 
 A | -------- | -------- | -------- | -1------ | -------- | -------- | -------- |
 E | -------- | -1------ | -------- | 1--3-1-- | -------- | -1------ | -------- |
 C | -------- | 0--2-0-- | -------- | -------- | -------- | 0--2-0-- | -------- |
 G | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
     1&2&3&4&   1&2&3&4&   1&2&3&4& 1&2&3&4&     1&2&3&4&   1&2&3&4&   1&2&3&4&
-
 {end_of_tab}
+
 <i><b>Deep voice:</b></i>    He [D][*/(STOP)] don’t miss no one!
 
 {comment Verse 3}
@@ -69,25 +72,27 @@ He’s [Dm7] gotta wear his goggles ’cause the [G7] snow really flies
 And he’s [C] cruisin’ every pad with a [C#dim] little surprise
 
 {comment Chorus 3}
-It’s the [F] Little Saint Nick, Little [F] Saint Nick
-                 (Oooooooooooo,  Little       Saint Nick)
-It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
-                     (Oooooooooooo,  Little          Saint Nick)
+<i><b>High voice:</b></i>   It’s the [F] Little Saint Nick, Little [F] Saint Nick
+<i><b>Low voice: </b>                   Ooooooooooo,   Little      Saint Nick)</i>
+
+<i><b>High voice:</b></i>   It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
+<i><b>Low voice: </b>                      Ooooooooooo,   Little         Saint Nick)</i>
 
 {comment Bridge 2}
 
+{{comment Bridge 1} 
+     [F] Run, run       [F]             [Bb] Run, run   [Bb] Whoooa  [F] Run, run    [F]                   [D] Run, run              
+           reindeer                                  reindeer                                                                                      reindeer
 {tabsize: 110%}
 {tabfont: Courier-Bold}
 {sot}
-     Run, run              Run, run              Run, run               Run, run  
-  [F]reindeer  [F]      [Bb]reindeer [Bb] Whoa [F]reindeer [F]       [D] reindeer 
 A | -------- | -------- | -------- | -1------ | -------- | -------- | -------- |
 E | -------- | -1------ | -------- | 1--3-1-- | -------- | -1------ | -------- |
 C | -------- | 0--2-0-- | -------- | -------- | -------- | 0--2-0-- | -------- |
 G | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
     1&2&3&4&   1&2&3&4&   1&2&3&4& 1&2&3&4&     1&2&3&4&   1&2&3&4&   1&2&3&4&
-
 {end_of_tab}
+
 <i><b>Deep voice:</b></i>    He [D][*/(STOP)] don’t miss no one!
 
 {comment Verse 4}
@@ -97,15 +102,23 @@ He’s [Dm7] gotta wear his goggles ’cause the [G7] snow really flies
 And he’s [C] cruisin’ every pad with a [C#dim] little surprise
 
 {comment Chorus 4}
-It’s the [F] Little Saint Nick, Little [F] Saint Nick
-                 (Oooooooooooo,  Little       Saint Nick)
-It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
-                     (Oooooooooooo,  Little          Saint Nick)
+<i><b>High voice:</b></i>   It’s the [F] Little Saint Nick, Little [F] Saint Nick
+<i><b>Low voice: </b>                   Ooooooooooo,   Little      Saint Nick)</i>
+
+<i><b>High voice:</b></i>   It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
+<i><b>Low voice: </b>                      Ooooooooooo,   Little         Saint Nick)</i>
+
+{new_page}
+
 {comment Ending}
 [Dm] Oooooo, [Dm] Merry Christmas
-[C] Saint Nick              [A7]
-      (Christmas comes this time each year)
-[Dm] Oooooo, [Dm] Merry Christmas
-[C] Saint Nick              [A7]
-      (Christmas comes this time each year)
+
+<i><b>High voice:</b></i>   [C] Saint Nick                    [C]
+<i><b>Low voice: </b>        Christmas comes this      time each year</i>
+
+[Dm] Oooooo, [G7] Oooooo,[Dm] Oooooo, [Dm] Merry Christmas 
+
+<i><b>High voice:</b></i>   [C] Saint Nick                    [C]
+<i><b>Low voice: </b>        Christmas comes this      time each year</i>
+
 [Dm] Oooooo, [Dm] Merry Christmas [C] Saint Nick  [C][*/(hold)]  
