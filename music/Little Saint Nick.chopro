@@ -1,6 +1,6 @@
 {title: Little Saint Nick - rev. 11-02-2026}
 {subtitle: Arrangement by Bob Guz}
-{define C#dim frets 0 1 0 1}
+{define: C#dim frets 0 1 0 1}
 {comment: Tempo: 110 / Strum: (d- du -u du)} 
 
 {comment: Intro:}
@@ -80,7 +80,7 @@ And he’s [C] cruisin’ every pad with a [C#dim] little surprise
 
 {comment Bridge 2}
 
-{{comment Bridge 1} 
+{comment Bridge 1} 
      [F] Run, run       [F]             [Bb] Run, run   [Bb] Whoooa  [F] Run, run    [F]                   [D] Run, run              
            reindeer                                  reindeer                                                                                      reindeer
 {tabsize: 110%}
