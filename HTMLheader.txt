@@ -540,12 +540,20 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Practice at Sarah&#x27;s</div>
-            <div class="event-details">Thursday, November 5<br>2:00 PM - 4:00 PM</div>
+            <div class="event-name">Cindy&#x27;s</div>
+            <div class="event-details">Monday, November 16<br>1:00 PM - 3:00 PM</div>
           </li>
           <li class="event-item">
             <div class="event-name">Practice at Sarah&#x27;s</div>
             <div class="event-details">Thursday, November 19<br>2:00 PM - 4:00 PM</div>
+          </li>
+          <li class="event-item">
+            <div class="event-name">Full Set Up at Tuscan Village</div>
+            <div class="event-details">Monday, November 30<br>1:00 PM - 3:00 PM</div>
+          </li>
+          <li class="event-item">
+            <div class="event-name">Sarah&#x27;s <strong>Last Practice with microphones</strong></div>
+            <div class="event-details">Thursday, December 3<br>2:00 PM - 5:00 PM</div>
           </li>
           <li class="event-item">
             <div class="event-name">Sweetwater Clubhouse - Cocoa with Santa</div>
