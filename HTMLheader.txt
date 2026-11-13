@@ -476,6 +476,8 @@
         grid-row: 1;
         position: sticky;
         top: 32px;
+        max-height: calc(100vh - 64px);
+        overflow-y: auto;
       }
     }
 
@@ -540,7 +542,7 @@
         </div>
         <ul class="events-list">
           <li class="event-item">
-            <div class="event-name">Cindy&#x27;s</div>
+            <div class="event-name">Practice at Cindy&#x27;s</div>
             <div class="event-details">Monday, November 16<br>1:00 PM - 3:00 PM</div>
           </li>
           <li class="event-item">
@@ -548,23 +550,23 @@
             <div class="event-details">Thursday, November 19<br>2:00 PM - 4:00 PM</div>
           </li>
           <li class="event-item">
-            <div class="event-name">Full Set Up at Tuscan Village</div>
+            <div class="event-name">Full Set Up Practice at Tuscan Village</div>
             <div class="event-details">Monday, November 30<br>1:00 PM - 3:00 PM</div>
           </li>
           <li class="event-item">
-            <div class="event-name">Sarah&#x27;s <strong>Last Practice with microphones</strong></div>
+            <div class="event-name"><strong>Last Practice with microphones</strong> at Sarah&#x27;s </div>
             <div class="event-details">Thursday, December 3<br>2:00 PM - 5:00 PM</div>
           </li>
           <li class="event-item">
-            <div class="event-name">Sweetwater Clubhouse - Cocoa with Santa</div>
+            <div class="event-name"><strong>Performance!</strong> Sweetwater Clubhouse - Cocoa with Santa</div>
             <div class="event-details">Sunday, December 6, 2026<br>11:00 AM - 12:00 PM<br>Set up: 10:00 AM<br><a href="https://www.google.com/maps/search/17922+Sweetwater+Club+Circle,+Austin+Tx?entry=gmail&amp;source=g">17922 Sweetwater Club Circle, Austin, TX</a><br>Kid-friendly program during Cocoa with Santa; covered outdoor patio.</div>
           </li>
           <li class="event-item">
-            <div class="event-name">Tuscan Village HOA</div>
+            <div class="event-name"><strong>Performance!</strong> Tuscan Village HOA</div>
             <div class="event-details">Monday, December 7, 2026<br>6:00 PM - 7:00 PM<br>Set up: 5:00 PM<br>Bella Toscana Ave, Lakeway, TX</div>
           </li>
           <li class="event-item">
-            <div class="event-name">Longhorn Village</div>
+            <div class="event-name"><strong>Performance!</strong> Longhorn Village</div>
             <div class="event-details">Sunday, December 13, 2026<br>12504 Longhorn Pkwy, Austin<br>3:00 PM</div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.0146208641704!2d-97.91233942443446!3d30.35053437477094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865b36e40cfd2af3%3A0xcaaef102800582d1!2s12501%20Longhorn%20Pkwy%2C%20Austin%2C%20TX%2078732!5e0!3m2!1sen!2sus!4v1792423723276!5m2!1sen!2sus" width="100%" height="200" style="border:0; display:block; margin-top:8px; border-radius:8px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
           </li>
