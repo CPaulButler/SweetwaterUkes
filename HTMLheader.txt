@@ -554,7 +554,7 @@
             <div class="event-details">Monday, November 30<br>1:00 PM - 3:00 PM</div>
           </li>
           <li class="event-item">
-            <div class="event-name"><strong>Last Practice with microphones</strong> at Sarah&#x27;s </div>
+            <div class="event-name"><strong>Last Practice with microphones</strong> at Tuscan Village </div>
             <div class="event-details">Thursday, December 3<br>2:00 PM - 5:00 PM</div>
           </li>
           <li class="event-item">
