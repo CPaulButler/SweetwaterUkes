@@ -1,4 +1,4 @@
-{title: Little Saint Nick - rev. 11-02-2026}
+{title: Little Saint Nick - rev. 11-16-2026}
 {subtitle: Arrangement by Bob Guz}
 {define: C#dim frets 0 1 0 1}
 {comment: Tempo: 110 / Strum: (d- du -u du)} 
@@ -17,10 +17,8 @@ G | -------- | -------- | -------- | -------- | -------- | -------- |
 {end_of_tab}
 
 [Dm] Oooooo, [Dm] Merry Christmas 
-
 <i><b>High voice:</b></i>   [C] Saint Nick                    [C]
 <i><b>Low voice: </b>        Christmas comes this      time each year</i>
-
 [Dm] Oooooo, [G7] Oooooo,
 
 {comment Verse 1}
@@ -49,7 +47,6 @@ And when [C] Santa hits the gas, man, just [C#dim] watch her peel
 <i><b>High voice:</b></i>   It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
 <i><b>Low voice: </b>                      Ooooooooooo,   Little         Saint Nick)</i>
 
-{new_page}
 {comment Bridge 1} 
      [F] Run, run       [F]             [Bb] Run, run   [Bb] Whoooa  [F] Run, run    [F]                   [D] Run, run              
            reindeer                                  reindeer                                                                                      reindeer
@@ -79,8 +76,6 @@ And he’s [C] cruisin’ every pad with a [C#dim] little surprise
 <i><b>Low voice: </b>                      Ooooooooooo,   Little         Saint Nick)</i>
 
 {comment Bridge 2}
-
-{comment Bridge 1} 
      [F] Run, run       [F]             [Bb] Run, run   [Bb] Whoooa  [F] Run, run    [F]                   [D] Run, run              
            reindeer                                  reindeer                                                                                      reindeer
 {tabsize: 110%}
@@ -108,17 +103,14 @@ And he’s [C] cruisin’ every pad with a [C#dim] little surprise
 <i><b>High voice:</b></i>   It’s the [Dm] Little Saint Nick, Little [G7] Saint Nick
 <i><b>Low voice: </b>                      Ooooooooooo,   Little         Saint Nick)</i>
 
-{new_page}
-
 {comment Ending}
 [Dm] Oooooo, [Dm] Merry Christmas
-
 <i><b>High voice:</b></i>   [C] Saint Nick                    [C]
 <i><b>Low voice: </b>        Christmas comes this      time each year</i>
 
-[Dm] Oooooo, [G7] Oooooo,[Dm] Oooooo, [Dm] Merry Christmas 
-
+[Dm] Oooooo, [Dm] Merry Christmas 
 <i><b>High voice:</b></i>   [C] Saint Nick                    [C]
 <i><b>Low voice: </b>        Christmas comes this      time each year</i>
 
-[Dm] Oooooo, [Dm] Merry Christmas [C] Saint Nick  [C][*/(hold)]  
+[Dm] Oooooo, [Dm] Merry Christmas 
+[C] Saint Nick  [C][*/(hold)]  
