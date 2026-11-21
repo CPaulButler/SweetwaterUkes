@@ -1,4 +1,4 @@
-{title: Little Saint Nick - rev. 11-16-2026}
+{title: Little Saint Nick - rev. 11-20-2026}
 {subtitle: Arrangement by Bob Guz}
 {define: C#dim frets 0 1 0 1}
 {comment: Tempo: 110 / Strum: (d- du -u du)} 
@@ -9,14 +9,14 @@
 {tabsize: 110%}
 {tabfont: Courier-Bold}
 {sot}
-A | -3-0---- | -------- | -3-0---- | -------- | -------- | -------- |
-E | 3----3-- | -------- | 3----3-- | -------- | -------- | -------- |
+A | -3-0---- | -------- | -3-0---- | -------- | -3-0---- | -------- |
+E | 3----3-- | -------- | 3----3-- | -------- | 3----3-- | -------- |
 C | -------- | -------- | -------- | -------- | -------- | -------- |
 G | -------- | -------- | -------- | -------- | -------- | -------- |
     1&2&3&4&   1&2&3&4&   1&2&3&4& 1&2&3&4&     1&2&3&4&   1&2&3&4&   
 {end_of_tab}
 
-[Dm] Oooooo, [Dm] Merry Christmas 
+[Dm] Oooooo, [Dm] Merry Christmas               <b><i>(Repeat tab riff through rest of intro)</i></b>
 <i><b>High voice:</b></i>   [C] Saint Nick                    [C]
 <i><b>Low voice: </b>        Christmas comes this      time each year</i>
 [Dm] Oooooo, [G7] Oooooo,
@@ -48,8 +48,8 @@ And when [C] Santa hits the gas, man, just [C#dim] watch her peel
 <i><b>Low voice: </b>                      Ooooooooooo,   Little         Saint Nick)</i>
 
 {comment Bridge 1} 
-     [F] Run, run       [F]             [Bb] Run, run   [Bb] Whoooa  [F] Run, run    [F]                   [D] Run, run              
-           reindeer                                  reindeer                                                                                      reindeer
+     [F] Run, run       [F]             [Bb] Run, run   [Bb] Whoooa  [F] Run, run    [F]                   [D] Run,           
+           reindeer                                   reindeer                                   reindeer                                   ...              
 {tabsize: 110%}
 {tabfont: Courier-Bold}
 {sot}
@@ -77,7 +77,7 @@ And he’s [C] cruisin’ every pad with a [C#dim] little surprise
 
 {comment Bridge 2}
      [F] Run, run       [F]             [Bb] Run, run   [Bb] Whoooa  [F] Run, run    [F]                   [D] Run, run              
-           reindeer                                  reindeer                                                                                      reindeer
+           reindeer                                   reindeer                                   reindeer                                   reindeer
 {tabsize: 110%}
 {tabfont: Courier-Bold}
 {sot}
@@ -114,3 +114,5 @@ And he’s [C] cruisin’ every pad with a [C#dim] little surprise
 
 [Dm] Oooooo, [Dm] Merry Christmas 
 [C] Saint Nick  [C][*/(hold)]  
+
+<b>*** END ***</b>
